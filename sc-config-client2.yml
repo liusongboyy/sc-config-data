@@ -1,2 +1,5 @@
 ---
 lucky-word: liusongboyy
+
+server:
+  port: 8011
