@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8020/eureka/
+
+words:你,我,他
