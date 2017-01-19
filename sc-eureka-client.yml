@@ -1,9 +1,9 @@
-server:
-  port: ${PORT:${SERVER_PORT:0}}
-
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8010
 eureka:
   client:
-    serverUrl:
-      defaultZone: http://localhost:8020/eureka/
-
-words: 你,我,他
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+words: ni,wo,ta
