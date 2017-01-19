@@ -6,4 +6,4 @@ eureka:
     serverUrl:
       defaultZone: http://localhost:8020/eureka/
 
-words:你,我,他
+words: 你,我,他
