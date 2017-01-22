@@ -5,6 +5,6 @@ sc-config-client:
   ribbon:
     eureka:
       enabled: false
-    listOfservers: localhost:8011,localhost:9092,localhost:9999
+    listOfservers: localhost:8011,localhost:9092
     ServerListRefreshInterval: 15000
     
