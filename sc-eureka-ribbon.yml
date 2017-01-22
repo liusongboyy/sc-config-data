@@ -1,2 +1,10 @@
 server:
   port: 8080
+
+sc-config-client:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfservers: localhost:8011,localhost:9092,localhost:9999
+    ServerListRefreshInterval: 15000
+    
