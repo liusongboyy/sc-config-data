@@ -1,0 +1,9 @@
+server:
+  port: 8111
+---
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
