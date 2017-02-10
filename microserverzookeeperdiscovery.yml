@@ -1,0 +1,14 @@
+server:
+  port: 8112
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
