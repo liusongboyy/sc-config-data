@@ -3,7 +3,7 @@ server:
 ---
 eureka:
   client:
-    serverUrl:
-      defualtZone: http://localhost:8111/eureka/
+    serviceUrl:
+      defaultZone: http://localhost:8111/eureka/
 ---
 words: 你,我,他,她,它
